@@ -1,0 +1,35 @@
+Field Title,Field Name,Data Type,Description
+Manufacturer ID,OshpdfacilityId,Plain Text,OSHPD assigned unique manufacturer identifier 
+Manufacturer Name,DBAName,Plain Text,The entity that 1) holds the NDC for a prescription drug; and 2) Is described in Health and Safety Code Section 127675.
+NDC Number,NDC Number,Plain Text,"A three-segment code maintained by the federal Food and Drug Administration that includes a labeler code, a product code, and a package code for a drug product and that has been converted to an 11-digit format consisting of five digits in the first segment, four digits in the second segment, and two digits in the third segment. A three-segment code shall be considered converted to an 11-digit format when, as necessary, at least one “0” has been added to the front of each segment containing less than the specified amount of digits such that each segment contains the specified amount of digits."
+Drug Product Description,Drug Product Description,Plain Text,"The finished dosage form of a prescription drug that contains a drug substance, generally, but not necessarily, in association with other active or inactive ingredients, and that has a unique NDC. "
+Introduced to Market Date,Introduced to Market Date,Date,"The date the new prescription drug was, or will be, introduced to market."
+WAC at Introduction  ,WAC at Introduction  ,Number,"“Wholesale Acquisition Cost” (WAC) of the new presciption drug as of the introduction to market date.  It is the manufacturer’s published list price for a prescription drug product with a unique NDC.  Reported in US currency, dollars."
+Marketing/Pricing Plan Description,Marketing/Pricing Plan Description,Plain Text,A narrative description of the marketing and pricing plans used in the launch of the new prescription drug in the United States and internationally.
+Marketing/Pricing Plan Non-Public Indicator,Marketing/Pricing Plan Nonpublic Indicator,Number,A manufacturer may limit the information reported to that which is otherwise in the public domain or publicly available. An indicator of 1 means that the information is not in the public domain or publicaly available.
+Estimated Number of Patients,Estimated Number of Patients,Number,The estimated number of patients in the United States with a condition for which the new prescription drug may be prescribed.
+Breakthrough Therapy Indicator,Breakthrough Therapy Indicator,Number,Indicate whether the drug was granted breakthrough therapy designation by the federal Food and Drug Administration prior to approval.  An indicator of 1 means that this drug was reviewed as such prior to approval.
+Priority Review Indicator  ,Priority Review Indicator  ,Number,Indicates whether the drug was granted priority review by the federal Food and Drug Administration prior to approval.  An indicator of 1 means that this drug was reviewed as such prior to approval.
+Acquisition Date  ,Acquisition Date  ,Date,If the drug was not developed by the manufacturer:  The date the manufacturer acquired the drug.  A manufacturer may limit the information reported pursuant to subdivision (b) to that which is otherwise in the public domain or publicly available.
+Acquisition Price  ,Acquisition Price  ,Number,If the drug was not developed by the manufacturer:  The price of acquisition.   A manufacturer may limit the information reported pursuant to subdivision (b) to that which is otherwise in the public domain or publicly available.
+Acquisition Price Non-Public Indicator,Acquisition Price Nonpublic Indicator,Number,A manufacturer may limit the information reported to that which is otherwise in the public domain or publicly available. An indicator of 1 means that the information is not in the public domain or publicaly available.
+Acquisition Price Comment ,Acquisition Price Comment ,Plain Text,"Manufacturer comments, if reported."
+General Comments ,General Comments ,Plain Text,Any other comments by the manufacturer or links to additional information.
+Supporting Documents,Supporting Documents,Plain Text,Links to supporting documents provided by manufacturer
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+  ,,,

@@ -1,0 +1,10 @@
+﻿Country,Type,Profit
+GB,online,50
+US,in-store,25
+GB,online,30
+US,in-store,100
+GB,in-store,25
+GB,in-store,30
+GB,online,75
+US,online,110
+US,in-store,10
