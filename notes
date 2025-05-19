@@ -1,0 +1,127 @@
+Slide 1: Title Slide
+What to Show:
+- Title: Review Prioritisation Model for Customers Exceeding Cash Deposit Thresholds
+- Subtitle: Optimising AML Detection Through AI & Data Science
+- Your name, role (Principal Analyst, Financial Crime & Compliance Analytics)
+- Company logo (if applicable)
+- A clean & professional design with the bank’s branding.
+What to Say:
+- Welcome everyone and introduce yourself.
+- Briefly mention the importance of using AI-driven methods to enhance financial crime detection.
+- Set the tone: "Today's session will focus on how AI can improve prioritisation, reduce resource strain, and boost AML detection efficiency."
+How to Make it More Compelling:
+- Start with a problem statement: "Banks are under pressure to enhance financial crime controls while managing operational efficiency. How can AI help?"
+- Use an engaging opening statistic (e.g., "Money laundering accounts for 2-5% of global GDP—over $2 trillion annually.").
+
+Slide 2: Introduction & Context
+What to Show:
+- Summary of AML regulations and risk mitigation.
+- Visual: A flowchart illustrating the legacy customer review process.
+- Data Point: Current UAR rate (6.4%) vs. target improvement (10%).
+What to Say:
+- Explain why banks monitor cash deposits.
+- Describe the existing manual review process and its inefficiencies.
+- Introduce the AML compliance risks and FCA regulatory pressure.
+Technical Notes:
+- AML regulations mandate systematic cash review controls to prevent illicit financial activity.
+- Legacy manual processes rely on static spreadsheets, rule-based suppression, and periodic rescinding—this is slow and labour-intensive.
+How to Make it More Compelling:
+- Include a real-world example: "Recent FCA sanctions highlight banks failing AML compliance due to inadequate review processes."
+
+Slide 3: Business Problem & Key Challenge
+What to Show:
+- Visual: Comparison between the legacy vs. AI-driven approach (flow diagram).
+- Breakdown of resource demand before and after optimisation.
+What to Say:
+- Outline the two key challenges:
+- Optimising UAR detection rate (moving from 6.4% to 10%).
+- Reducing caseload volume without sacrificing detection quality.
+Technical Notes:
+- The challenge is optimising precision vs recall in fraud detection.
+- Balancing false positives (wasting resources) vs false negatives (missing actual money laundering).
+How to Make it More Compelling:
+- Reinforce stakeholder pain points: "The manual process consumes over 2,272 hours annually, creating bottlenecks."
+
+Slide 4: Research Approach & Methodology
+What to Show:
+- Visual: Table outlining selected ML models (Decision Tree, Random Forest, LightGBM).
+- Summary of GCP Dataproc pipeline and Looker Core visualisation output.
+What to Say:
+- Explain the chosen AI models and why tree-based models were preferred.
+- Introduce data architecture on GCP & the use of automated pipelines.
+Technical Notes:
+- Decision Tree as a baseline → Random Forest & LightGBM as advanced ensemble models.
+- Use of stratified train-test split, cross-validation, and grid search hyperparameter tuning.
+- Explainability techniques (SHAP values, feature importance) ensure stakeholder confidence.
+How to Make it More Compelling:
+- Highlight that the Random Forest model significantly outperformed Decision Trees.
+- Use a quote from regulators or AML experts to reinforce why AI models are crucial in compliance.
+
+Slide 5: Data Selection & Feature Engineering
+What to Show:
+- Diagram: Data pipeline showing structured (static details) vs unstructured (transactional patterns).
+- Heatmap: Correlation matrix of key features.
+What to Say:
+- Describe how dynamic features helped mimic reviewer decisions.
+- Discuss bias mitigation techniques in feature selection.
+Technical Notes:
+- Removing protected characteristics (GDPR compliance).
+- Use of aggregated behaviour metrics to define abnormal cash movement.
+- Handling null values using encoding rather than imputation.
+How to Make it More Compelling:
+- Show feature importance rankings (SHAP values) to illustrate transparency in AI decisions.
+
+Slide 6: Model Development & Performance Evaluation
+What to Show:
+- Visual: Confusion matrix comparison (Decision Tree vs. Random Forest).
+- Feature Importance chart (SHAP values).
+What to Say:
+- How Random Forest outperformed other models in recall & precision.
+- Why optimising the F2-score ensures false negatives are minimised.
+Technical Notes:
+- Hyperparameter tuning included adjusting estimators, depth constraints, and class balancing.
+- Explainability considerations ensure compliance with EU AI Act & internal governance.
+How to Make it More Compelling:
+- Use before-and-after metrics to show improvements ("We reduced workload by 87% while improving AML detection.").
+
+Slide 7: Stakeholder Engagement & Business Implementation
+What to Show:
+- Stakeholder feedback timeline (iterative improvements).
+- Screenshot of Looker Core dashboard UI.
+What to Say:
+- Explain how reviewers influenced feature selection.
+- Discuss balancing technical vs non-technical stakeholder needs.
+Technical Notes:
+- Interpretable AI models improve confidence in recommendations.
+- Automated dashboard with write-back functionality replaces spreadsheets.
+How to Make it More Compelling:
+- Show an example reviewer scenario where the model correctly flagged high-risk behaviour.
+
+Slide 8: Business Recommendations & Next Steps
+What to Show:
+- Projected savings chart: 1,500+ resource hours saved annually.
+- Roadmap: Model retraining, ongoing audits.
+What to Say:
+- Mitigation strategies for future drift (bi-annual retraining).
+- How the model aligns with business goals (efficiency + compliance).
+Technical Notes:
+- SHAP-based explainability assessments ensure model interpretability over time.
+- Periodically retraining models mitigates concept drift.
+How to Make it More Compelling:
+- End with a strong impact statement ("Optimising AML detection saves resources while improving risk mitigation.").
+
+Slide 9: Conclusion & Q&A
+What to Show:
+- Final takeaways (summary bullets).
+- Call to action: Open floor for questions.
+What to Say:
+- Recap business impact, model success, and future integration.
+- Invite stakeholder discussion on next iterations & risk priorities.
+How to Make it More Compelling:
+- Use a powerful closing statement: "This AI-driven approach is not just about efficiency—it strengthens our AML controls and safeguards financial integrity."
+
+Missing Elements & Final Enhancements
+What to add:
+- Comparison slide with potential alternative solutions (manual rules, non-ML heuristic models).
+- Governance slide explaining regulatory alignment (GDPR, EU AI Act, FCA AML Compliance).
+Would you like a fully formatted PowerPoint deck with polished visuals and speaker notes?
